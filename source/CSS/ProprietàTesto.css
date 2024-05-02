@@ -1,0 +1,21 @@
+div{
+    /* font-family: Arial, Helvetica, sans-serif; */
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+
+p 
+montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+  
+}
+
+span {
+  font-size: 30px;
+}

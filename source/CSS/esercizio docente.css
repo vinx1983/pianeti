@@ -1,0 +1,144 @@
+
+
+ @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap");
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    /* font-family: "EB Garamond", serif; */
+  }
+
+  div#header {
+    background-color: #14213dff;                         /* colore sfondo */
+    min-height: 250px;                                      /* altezza minima verticale */
+    line-height: 250px;                                    /*  posizionamento verticale del testo */
+  }
+
+  .sistema-solare__title {
+    text-align: center;                                     /* allineamento testo orizzontalmente nella pagina */
+    margin: 0;                                             /*  margine esterno al riquadro */
+    color: #14213dff;
+    font-size: 40px;                                        /* dimensione del carattere */
+  
+    text-transform: capitalize;                             /* trasforma testo in maiuscolo */
+  }
+  
+  .sistema-solare__title--principale {
+    text-shadow: 2px 2px 2px #e5e5e5ff;              /* testo con ombrature carattere */
+    word-spacing: 3px;                                 /* spazio tra le parole in orizzontale */
+    text-transform: uppercase;                          /* tutte maiuscole */
+    font-size: 60px;                                    /* dimensione del carattere */
+    color: #fca311ff;                                   /* colore carattere */
+  }                 
+
+  div#main{
+    padding: 20px 20px 0;                                /* spazio tra il riquadro caratteri ed il bordo (superiore - destro - inferiore) */
+    background-color: #e5e5e5ff;                        /* colore sfondo */
+  } 
+
+  div.sistema-solare{
+    background-color: #fca311ff;                    /* colore sfondo */
+    padding: 20px;                                      /* spazio tra il riquadro caratteri ed il bordo */
+    border: 3px solid  #000000ff;                     /* bordo del riquadro */
+  }
+
+  div.sistema-solare__body{
+    font-size: 19px;                                     /* dimensione del carattere */
+    line-height: 1.5;                                       /* interlinea */
+  }
+
+  .sistema-solare__body{
+    list-style-image: url(../../ASSETS/IMG/icons8-pianeta-24.png);      /* inserire le icone */
+  }
+
+  div.pianeta-container{
+        margin: 20px 0 0;
+        font-size: 0;
+  }
+
+
+     .pianeta-container__card{
+       width: calc(33.333333% - 20px);                                 /* ampiezza riquadro */
+       border: 2px solid black;                         /* bordo del riquadro */
+       padding: 20px 0;                                      /* spazio tra il riquadro caratteri ed il bordo (superiore - destro e sinistro) */
+       display: inline-block;                              /*  fa visualizzare gli elementi in orizzontale invece che in verticale */
+       font-size: 16px;                                  /* dimensione del carattere */
+
+       margin: 0 10px 20px;                                  /*  margine esterno al riquadro (superiore-destro-inferiore)*/
+     }
+
+     .pianeta-container__head {
+        border-bottom: 2px ridge black;                     /* bordo inferiore del riquadro */
+        padding-bottom: 20px;                                    /* spazio inferiore tra il riquadro caratteri ed il bordo */
+        margin: 0;                                               /*  margine esterno al riquadro */
+     }
+
+     .pianeta-container__card h2{
+        text-align: center;
+        margin: 0;
+      }
+
+      .pianeta-container__body{
+        padding: 0 20px;                                      /* spazio tra il riquadro caratteri ed il bordo */
+
+     }
+
+     .pianeta-container__card p {
+        margin: 0;                                          /*  margine esterno al riquadro */
+
+     }
+
+     .pianeta-container__footer {
+        color: #14213dff;                           /* colore carattere */
+        text-align: center;                              /* allineamento testo orizzontalmente nella pagina */
+        border-top: 2px ridge black;                /* bordo superiore del riquadro */
+        padding-top: 20px;                           /* spazio superiore tra il riquadro caratteri ed il bordo */
+        font-size: 20px;                                 /* dimensione del carattere */
+        cursor: pointer;                             /* trasforma cursore in mano che clicca */
+
+     }
+
+     div#footer{
+        background-color: #fca311ff;
+        color: #14213dff;
+     }
+
+     div#footer-container{
+        padding: 20px;
+     }
+
+     dt, 
+     dd {
+        display: inline-block;
+        margin: 0;
+     }
+
+     dt{
+    min-width: 150px;
+     }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+

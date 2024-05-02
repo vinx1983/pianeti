@@ -1,0 +1,65 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-size: 0;
+} 
+
+div {
+    font-size: 16px;}
+
+/* queste impostazioni servono per togliere il bordo laterale tra i blocchi */
+
+
+
+/* # = seleziona 1 elemento che ha il valore Id pari a: */
+
+/* #card-container{
+    border: 3px solid blue;
+    background-color: aqua;
+    width: calc(25% - 20px);
+    display: inline-block;
+    margin: 10px;
+}
+
+
+#card-body{
+
+    background-color: yellow;
+    color:blueviolet;
+    padding: 5px;
+
+}
+
+#card-footer{
+    background-color: brown;
+    color: whitesmoke;
+
+} */
+
+/* Dato che nel file html ho sostituito il Tag "class" con il Tag "Id" dovrò fare delle modifiche anche al file css */
+
+.card-container{
+    border: 3px solid blue;
+    background-color: aqua;
+    width: calc(25% - 20px);
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.card-body{
+
+    background-color: yellow;
+    color:blueviolet;
+    padding: 5px;
+
+}
+
+.card-footer{
+    background-color: brown;
+    color: whitesmoke;
+
+}

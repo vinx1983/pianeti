@@ -1,0 +1,38 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+} 
+
+p{
+    background-color: red;
+    padding: 50px;
+    border: 20px ridge green;
+    margin-bottom: 50px; 
+    text-indent: 20px;
+}
+
+p  +  p{background-color: red;
+    padding: 50px;
+    border: 20px ridge green;
+    margin-top: 50px; 
+    text-indent: 20px;}
+
+div{
+    background-color: yellow;
+    padding: 20px;
+    border: 40px ridge fuchsia;
+    width: 500px;
+    margin:0 auto;
+}
+
+span{
+    display: inline-block;
+    color: green;
+    width: 200px;
+    background-color: aquamarine;
+    /* margin: 40px auto;
+    padding: 30px; */
+}

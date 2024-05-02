@@ -1,0 +1,32 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+} 
+
+/* small{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+} */
+
+/* . = questo simbolo significa: si applica a tutti gli elementi della classe */
+
+.errore{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+}
+
+.errore-form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.corretto{
+    background-color: aqua;
+    color: red;
+    padding: 10px;
+}

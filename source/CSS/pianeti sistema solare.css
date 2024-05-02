@@ -1,0 +1,86 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    background-color: #e5e5e5;
+    font-size: 0;
+   
+} 
+
+#header{
+  background-color: #14213d;
+    color: #fca311;
+    font-size: 50px;
+    text-align: center;
+    border-top: 5px solid #14213d;
+    border-bottom: 200px solid #14213d;
+    font-family: "EB Gamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+#titolo{
+    text-align: center;
+    
+    font-size: 30px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+} 
+
+#testo{
+    background-color: #fca311;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    padding: 30px;
+    border: 10px solid black;
+    margin: 20px;
+
+}
+
+ul li
+{list-style-image: url("../../ASSETS/IMG/icons8-pianeta-24.png");
+    padding: 10px;
+    margin-left: 20px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.card-container{
+    border: 3px solid black;
+    width: 30%;
+    display: inline-block;
+    font-size: 20px;
+    margin: 30px;
+    border-style: double;
+    text-align: center; 
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.card-body{
+    text-align: start;
+    min-height: 680px;
+} 
+
+#fondopagina{
+
+background-color: #fca311;
+color: blue;
+padding: 40px;
+font-size: 22px;
+}
+
+

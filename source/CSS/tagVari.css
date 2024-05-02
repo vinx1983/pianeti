@@ -1,0 +1,17 @@
+span{
+    font-weight: bold;
+}
+
+mark{
+    background-color: blue
+    ;}
+
+    pre{
+        margin: 0px;
+    }
+
+    kbd{
+        background-color: aquamarine;
+        color: red;
+        border: 1px solid brown;
+    }

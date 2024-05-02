@@ -1,0 +1,20 @@
+body{
+    background-color: red;
+    height: 200px;
+}
+
+
+div{
+    background-color: aqua;
+    color: red;
+    /* width: 1000px; */
+    width: 50%;
+    /* height: 200px; */
+    height: 100%;
+}
+
+div div {
+    background-color: yellowgreen;
+    color: rgb(255, 0, 179);
+    
+}

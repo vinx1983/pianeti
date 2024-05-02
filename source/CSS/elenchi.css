@@ -1,0 +1,25 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+} 
+
+ul li {
+    /* list-style-type: disclosure-open; */
+    list-style-image: url("../../ASSETS/IMG/icons8-ninja-turtle-32.png");
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
+
+ul {
+    padding-left: 30px;
+}
+
+ol li {
+    list-style-type: decimal-leading-zero;
+    padding: 10px;
+}
